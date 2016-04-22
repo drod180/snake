@@ -29,7 +29,7 @@ figure {
 ul {
 }
 
-ul:after {
+ul:after, .group:after {
   content: "";
   clear: both;
   display: block;
@@ -47,4 +47,36 @@ li {
 
 .snake {
   background: green;
+}
+
+.button-container {
+	display: block;
+	width: 100%;
+}
+.buttons {
+	display: block;
+	max-width: 420px;
+	margin: 0 auto;
+}
+
+.bottom-icons > img{
+	margin: 0;
+}
+
+.bottom-icons {
+	float: left;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: bold;
+	margin: 10px 25px;
+}
+
+.bottom-icons:first-child {
+	margin-left: 0;
+}
+
+.bottom-icons:last-child {
+	margin-right: 0;
 }
