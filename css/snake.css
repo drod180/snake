@@ -37,7 +37,18 @@ h2 {
 figure {
   display: inline-block;
   border: 10px solid black;
+	z-index: 3;
 }
+
+.status {
+	height: 40px;
+}
+
+.status.game-over:after {
+	content: "Game Over!";
+	font-size: 30px;
+}
+
 
 ul {
 }
