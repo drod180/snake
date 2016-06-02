@@ -18,13 +18,37 @@ body {
 
 h1 {
   font-size: 60px;
-  margin: 30px;
+  margin: 30px 0 10px 0;
+}
+
+h2 {
+  font-size: 45px;
+  margin: 10px;
+}
+
+
+.top-button {
+	display: block;
+	font-size: 20px;
+	margin: 10px;
+	color: blue;
 }
 
 figure {
   display: inline-block;
   border: 10px solid black;
+	z-index: 3;
 }
+
+.status {
+	height: 40px;
+}
+
+.status.game-over:after {
+	content: "Game Over!";
+	font-size: 30px;
+}
+
 
 ul {
 }
